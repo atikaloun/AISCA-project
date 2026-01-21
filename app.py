@@ -36,29 +36,26 @@ with st.form("questionnaire"):
     st.header("2. Expériences concrètes")
 
     proj_python = st.text_area(
-        "Décris un projet Python structuré (modules, classes, tests).",
+        "Décrivez une expérience où vous avez conçu ou optimisé des flux de données (pipelines ETL) ou une architecture Big Data. Précisez les technologies utilisées (ex: Spark, Docker, SQL).",
         height=80
     )
     
     ml_pipeline = st.text_area(
-        "Explique ton pipeline ML de bout en bout (préparation → évaluation).",
+        "Détaillez un projet de Machine Learning ou d'IA que vous avez réalisé. Expliquez le choix de vos algorithmes (ex: Transformers, CNN, régressions).",
         height=80
     )
     
     dl_project = st.text_area(
-        "As-tu entraîné un modèle profond (CNN, Transformer) ? Décris-le.",
+        "Décrivez comment vous avez déjà transformé des données brutes en tableaux de bord (dashboards) ou en analyses statistiques pour répondre à un besoin métier. Avec quels outils ?.",
         height=80
     )
     
     data_pipeline = st.text_area(
-        "As-tu construit un pipeline de données (ETL, streaming) ? Raconte.",
+        "Expliquez votre approche pour définir une architecture globale de données ou pour piloter la stratégie d'un produit IA.",
         height=80
     )
     
-    deploy_ml = st.text_area(
-        "Comment as-tu déployé un modèle en production ? (Docker, API, etc.)",
-        height=80
-    )
+    
 
     st.markdown("---")
 
