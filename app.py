@@ -32,7 +32,7 @@ if st.session_state.submitted:
 # ÉTAPE 3 : Lancer Streamlit + Ngrok
 import subprocess
 import threading
-from pyngrok import ngrok
+#from pyngrok import ngrok
 
 # Lancer Streamlit en arrière-plan
 def run_streamlit():
