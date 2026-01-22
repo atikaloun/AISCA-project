@@ -1,3 +1,9 @@
 streamlit
 sentence-transformers
 google-generativeai
+sentence_transformers 
+google.colab 
+pandas
+openpyxl
+torch
+numpy

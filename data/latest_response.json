@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-01-22T15:44:20.115492",
+  "likert": {
+    "python": 3,
+    "sql": 1,
+    "scala": 1,
+    "ml": 3,
+    "dl": 1,
+    "stats": 2,
+    "mlops": 2,
+    "data_engineering": 2
+  },
+  "free_text": {
+    "proj_python": "ANALYSER",
+    "ml_pipeline": "RAPPORTS",
+    "dl_project": "Créer des tableaux de bord ",
+    "data_pipeline": ""
+  },
+  "technical": {
+    "used_genai": "Oui"
+  },
+  "career": {
+    "target_roles": [
+      "AI Engineer"
+    ]
+  }
+}
